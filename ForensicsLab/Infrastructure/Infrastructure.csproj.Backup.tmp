@@ -7,8 +7,16 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Folder Include="Configurations\" />
+    <Folder Include="AI\" />
+    <Folder Include="Security\" />
+    <Folder Include="Storage\" />
+    <Folder Include="Repositories\" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\Application\Application.csproj" />
-    <ProjectReference Include="..\Infrastructure\Infrastructure.csproj" />
+    <ProjectReference Include="..\Domain\Domain.csproj" />
   </ItemGroup>
 
 </Project>
